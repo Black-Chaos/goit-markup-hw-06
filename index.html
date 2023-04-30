@@ -414,6 +414,50 @@
                       <use href="./images/icons.svg#close"></use>
                     </svg>
                 </button>
+                <strong class="caption">Leave your contacts and we will call you back</strong>
+                <form class="callback" name="callback">
+                    <label class="tag">
+                        Name
+                        <div class="inner">
+                            <input class="field" name="Name" type="text" required autofocus>
+                            <svg class="icon" width="18" height="24">
+                              <use href="./images/icons.svg#person"></use>
+                            </svg>
+                        </div>
+                    </label>
+                    <label class="tag">
+                        Phone
+                        <div class="inner">
+                            <input class="field" name="Phone" type="tel" required>
+                            <svg class="icon" width="18" height="24">
+                              <use href="./images/icons.svg#phone"></use>
+                            </svg>
+                        </div>
+                    </label>
+                    <label class="tag">
+                        Email
+                        <div class="inner">
+                            <input class="field" name="E-mail" type="email" required>
+                            <svg class="icon" width="18" height="24">
+                              <use href="./images/icons.svg#email"></use>
+                            </svg>
+                        </div>
+                    </label>
+                    <label class="tag">
+                        Comment
+                        <textarea class="field text" name="field-text" placeholder="Text input"></textarea>
+                    </label>
+                    <label class="check">
+                        I accept the terms and conditions of the&#160;<a class="agreement" href="">Privacy Policy</a>
+                        <input class="checkbox visually-hidden" name="checked" type="checkbox">
+                        <span class="box">
+                            <svg class="check-icon" width="10" height="8">
+                              <use href="./images/icons.svg#check"></use>
+                            </svg>
+                        </span>
+                    </label>
+                    <button class="btn" type="submit">Send</button>
+                </form>
             </div>
         </div>
         <script src="./js/modal.js"></script>
